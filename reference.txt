@@ -1,0 +1,8 @@
+bcrypt -> To encrypt passwords
+cookie-parser -> To read the token from cookies
+dotenv -> To read .env files
+express -> To manage routes
+express-jwt -> To generate token
+express-validator -> For form validation
+mongoose -> To use MongoDB
+morgan -> To keep track of routes

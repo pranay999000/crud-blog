@@ -14,9 +14,7 @@ router.post(
   	"/sign-up",
   	[
 		check("username", "Username should be at least 5 charaters long").isLength({ min: 5 }),
-		check("password", "Password should be at least 6 charaters long").isLength({
-	  		min: 6,
-		}),
+		check("password", "Password should be at least 6 charaters long").isLength({ min: 6 }),
   	],
   	signup
 );
